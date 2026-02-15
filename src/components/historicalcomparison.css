@@ -1,0 +1,87 @@
+.historical-comparison {
+  background: white;
+}
+
+.historical-comparison h2 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  color: #1e293b;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+}
+
+.comparison-intro {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+.quakes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.quake-item {
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #3b82f6;
+  transition: all 0.2s;
+}
+
+.quake-item:hover {
+  background: #eff6ff;
+  transform: translateX(4px);
+}
+
+.quake-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.quake-magnitude {
+  font-size: 18px;
+  font-weight: 800;
+  color: #dc2626;
+}
+
+.quake-date {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.quake-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 3px;
+}
+
+.quake-depth {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.current-sim {
+  padding: 12px;
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.current-sim strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #78350f;
+}
+
+.current-sim div {
+  color: #92400e;
+  font-weight: 600;
+}

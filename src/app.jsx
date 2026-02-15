@@ -33,13 +33,13 @@ function App() {
     const loadData = async () => {
       try {
         // Load cities CSV
-        const citiesResponse = await fetch('/chile-earthquake-simulator/cities.csv');
+        const citiesResponse = await fetch('/chile-terremotea-sim/cities.csv');
         const citiesText = await citiesResponse.text();
         const citiesData = parseCSV(citiesText);
         setCities(citiesData);
 
         // Load historical quakes JSON
-        const quakesResponse = await fetch('/chile-earthquake-simulator/historical_quakes_clean.json');
+        const quakesResponse = await fetch('/chile-terremotea-sim/historical_quakes_clean.json');
         const quakesData = await quakesResponse.json();
         setHistoricalQuakes(quakesData);
 

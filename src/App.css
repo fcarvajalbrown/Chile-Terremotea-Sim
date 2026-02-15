@@ -75,6 +75,47 @@
   border-color: #2563eb;
 }
 
+/* Screen shake animations based on MMI intensity */
+@keyframes shake-light {
+  0%, 100% { transform: translate(0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-1px, 1px); }
+  20%, 40%, 60%, 80% { transform: translate(1px, -1px); }
+}
+
+@keyframes shake-moderate {
+  0%, 100% { transform: translate(0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-3px, 2px); }
+  20%, 40%, 60%, 80% { transform: translate(3px, -2px); }
+}
+
+@keyframes shake-strong {
+  0%, 100% { transform: translate(0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-6px, 4px); }
+  20%, 40%, 60%, 80% { transform: translate(6px, -4px); }
+}
+
+@keyframes shake-severe {
+  0%, 100% { transform: translate(0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-10px, 8px) rotate(-1deg); }
+  20%, 40%, 60%, 80% { transform: translate(10px, -8px) rotate(1deg); }
+}
+
+@keyframes shake-extreme {
+  0%, 100% { transform: translate(0, 0); }
+  5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% { 
+    transform: translate(-15px, 12px) rotate(-2deg); 
+  }
+  10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% { 
+    transform: translate(15px, -12px) rotate(2deg); 
+  }
+}
+
+.app.shake-light { animation: shake-light 0.5s ease-in-out; }
+.app.shake-moderate { animation: shake-moderate 0.8s ease-in-out; }
+.app.shake-strong { animation: shake-strong 1s ease-in-out; }
+.app.shake-severe { animation: shake-severe 1.2s ease-in-out; }
+.app.shake-extreme { animation: shake-extreme 1.5s ease-in-out; }
+
 /* Responsive layout */
 @media (max-width: 1200px) {
   .app-layout {

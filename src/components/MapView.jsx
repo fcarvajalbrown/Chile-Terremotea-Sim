@@ -11,7 +11,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 });
 
-function MapView({ epicenter, cities, selectedCity, onEpicenterChange, magnitude, depth }) {
+function MapView({ epicenter, cities, selectedCity, onEpicenterChange, onCityClick, magnitude, depth }) {
   const mapRef = useRef(null);
   const mapInstanceRef = useRef(null);
   const epicenterMarkerRef = useRef(null);
@@ -133,6 +133,13 @@ function MapView({ epicenter, cities, selectedCity, onEpicenterChange, magnitude
           ${isSelected ? '<em>Analysis Location</em>' : ''}
         </div>
       `);
+
+      // Add click handler to select city
+      marker.on('click', () => {
+        if (onCityClick) {
+          onCityClick(city.city);
+        }
+      });
 
       cityMarkersRef.current.push(marker);
     });

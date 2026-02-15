@@ -9,7 +9,6 @@ import { calculateIntensity } from './utils/attenuationModel';
 import { calculateHypocentralDistance } from './utils/geoUtils';
 import { getMMI } from './utils/mmiScale';
 import { estimateDamage, estimateAffectedPopulation } from './utils/damageModel';
-import { translations as t } from './translations';
 
 function App() {
   // Simulation state
@@ -28,6 +27,9 @@ function App() {
 
   // Calculated results
   const [results, setResults] = useState(null);
+  
+  // Shake animation state
+  const [shakeClass, setShakeClass] = useState('');
 
   // Load data on mount
   useEffect(() => {
@@ -104,8 +106,36 @@ function App() {
       mmi,
       damagePercent,
       affectedPop,
+      timestamp: Date.now(), // Force new object reference
     });
   }, [magnitude, depth, epicenter, selectedCity, cities]);
+
+  // Trigger shake animation when results change
+  useEffect(() => {
+    if (!results) return;
+
+    // Get numeric MMI level
+    const mmiLevel = results.mmi?.numericLevel || 0;
+
+    // Determine shake intensity based on MMI
+    let shake = '';
+    if (mmiLevel >= 9) shake = 'shake-extreme';
+    else if (mmiLevel >= 7) shake = 'shake-severe';
+    else if (mmiLevel >= 5) shake = 'shake-strong';
+    else if (mmiLevel >= 3) shake = 'shake-moderate';
+    else if (mmiLevel >= 1) shake = 'shake-light';
+
+    if (shake) {
+      setShakeClass(shake);
+      const timer = setTimeout(() => setShakeClass(''), 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [results]);
+
+  // Handle city click from map
+  const handleCityClick = (cityName) => {
+    setSelectedCity(cityName);
+  };
 
   if (loading) {
     return (
@@ -123,10 +153,10 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className={`app ${shakeClass}`}>
       <header className="app-header">
-        <h1>{t.appTitle}</h1>
-        <p>{t.appSubtitle}</p>
+        <h1>Chile Earthquake Simulator</h1>
+        <p>Interactive simulation of earthquake impacts in Chile</p>
       </header>
 
       <div className="app-layout">
@@ -178,6 +208,7 @@ function App() {
             cities={cities}
             selectedCity={selectedCity}
             onEpicenterChange={setEpicenter}
+            onCityClick={handleCityClick}
             magnitude={magnitude}
             depth={depth}
           />

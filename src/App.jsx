@@ -9,6 +9,7 @@ import { calculateIntensity } from './utils/attenuationModel';
 import { calculateHypocentralDistance } from './utils/geoUtils';
 import { getMMI } from './utils/mmiScale';
 import { estimateDamage, estimateAffectedPopulation } from './utils/damageModel';
+import { translations as t } from './translations';
 
 function App() {
   // Simulation state
@@ -124,8 +125,8 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Chile Earthquake Simulator</h1>
-        <p>Interactive simulation of earthquake impacts in Chile</p>
+        <h1>{t.appTitle}</h1>
+        <p>{t.appSubtitle}</p>
       </header>
 
       <div className="app-layout">

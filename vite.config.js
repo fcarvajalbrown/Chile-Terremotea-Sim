@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/chile-earthquake-simulator/', // GitHub Pages base path
+  base: '/chile-terremotea-sim/', // GitHub Pages base path
 })

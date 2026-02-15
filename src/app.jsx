@@ -39,7 +39,7 @@ function App() {
         setCities(citiesData);
 
         // Load historical quakes JSON
-        const quakesResponse = await fetch('/chile-terremotea-sim/historical_quakes_clean.json');
+        const quakesResponse = await fetch('/chile-terremotea-sim/historical_quakes.json');
         const quakesData = await quakesResponse.json();
         setHistoricalQuakes(quakesData);
 

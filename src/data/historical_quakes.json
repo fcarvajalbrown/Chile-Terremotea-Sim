@@ -1,0 +1,302 @@
+[
+  {
+    "name": "1960 Valdivia Earthquake",
+    "date": "1960-05-22",
+    "magnitude": 9.5,
+    "magnitude_type": "Mw",
+    "depth": null,
+    "epicenter_lat": -39.5,
+    "epicenter_lon": -74.5,
+    "year": 1960
+  },
+  {
+    "name": "1868 Arica Earthquake",
+    "date": "1868-08-13",
+    "magnitude": 8.9,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -18.5,
+    "epicenter_lon": -70.35,
+    "year": 1868
+  },
+  {
+    "name": "2010 Maule Earthquake",
+    "date": "2010-02-27",
+    "magnitude": 8.8,
+    "magnitude_type": "Mw",
+    "depth": 30.0,
+    "epicenter_lat": -36.29,
+    "epicenter_lon": -73.239,
+    "year": 2010
+  },
+  {
+    "name": "1615 Iquique Earthquake",
+    "date": "1615-09-16",
+    "magnitude": 8.8,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -18.5,
+    "epicenter_lon": -70.35,
+    "year": 1615
+  },
+  {
+    "name": "1730 Valparaíso Earthquake",
+    "date": "1730-07-08",
+    "magnitude": 8.7,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -33.05,
+    "epicenter_lon": -71.63,
+    "year": 1730
+  },
+  {
+    "name": "1922 Coquimbo Earthquake",
+    "date": "1922-11-10",
+    "magnitude": 8.5,
+    "magnitude_type": "Mw",
+    "depth": 25.0,
+    "epicenter_lat": -28.5,
+    "epicenter_lon": -70.0,
+    "year": 1922
+  },
+  {
+    "name": "1877 Iquique Earthquake",
+    "date": "1877-05-09",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -19.6,
+    "epicenter_lon": -70.23,
+    "year": 1877
+  },
+  {
+    "name": "1835 Concepción Earthquake",
+    "date": "1835-02-20",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -36.83,
+    "epicenter_lon": -73.03,
+    "year": 1835
+  },
+  {
+    "name": "1822 Valparaíso Earthquake",
+    "date": "1822-11-19",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -33.05,
+    "epicenter_lon": -71.63,
+    "year": 1822
+  },
+  {
+    "name": "1751 Concepción Earthquake",
+    "date": "1751-05-25",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -36.83,
+    "epicenter_lon": -73.03,
+    "year": 1751
+  },
+  {
+    "name": "1647 Valparaíso Earthquake",
+    "date": "1647-05-13",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -35.0,
+    "epicenter_lon": -72.0,
+    "year": 1647
+  },
+  {
+    "name": "1604 Iquique Earthquake",
+    "date": "1604-11-24",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": 30.0,
+    "epicenter_lat": -18.5,
+    "epicenter_lon": -70.4,
+    "year": 1604
+  },
+  {
+    "name": "1575 Concepción Earthquake",
+    "date": "1575-12-16",
+    "magnitude": 8.5,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -39.8,
+    "epicenter_lon": -73.2,
+    "year": 1575
+  },
+  {
+    "name": "2015 Illapel Earthquake",
+    "date": "2015-09-16",
+    "magnitude": 8.4,
+    "magnitude_type": "Mw",
+    "depth": 11.1,
+    "epicenter_lat": -31.553,
+    "epicenter_lon": -71.864,
+    "year": 2015
+  },
+  {
+    "name": "1950 Antofagasta Earthquake",
+    "date": "1950-12-09",
+    "magnitude": 8.3,
+    "magnitude_type": "Ms",
+    "depth": 100.0,
+    "epicenter_lat": -23.5,
+    "epicenter_lon": -67.5,
+    "year": 1950
+  },
+  {
+    "name": "1939 Concepción Earthquake",
+    "date": "1939-01-24",
+    "magnitude": 8.3,
+    "magnitude_type": "Ms",
+    "depth": 60.0,
+    "epicenter_lat": -36.2,
+    "epicenter_lon": -72.2,
+    "year": 1939
+  },
+  {
+    "name": "1928 Punta Arenas Earthquake",
+    "date": "1928-12-01",
+    "magnitude": 8.3,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -35000.0,
+    "epicenter_lon": -72000.0,
+    "year": 1928
+  },
+  {
+    "name": "1819 Coquimbo Earthquake",
+    "date": "1819-04-11",
+    "magnitude": 8.3,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -27.35,
+    "epicenter_lon": -70.35,
+    "year": 1819
+  },
+  {
+    "name": "1570 Concepción Earthquake",
+    "date": "1570-02-08",
+    "magnitude": 8.3,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -36.8,
+    "epicenter_lon": -73.0,
+    "year": 1570
+  },
+  {
+    "name": "1943 Valparaíso Earthquake",
+    "date": "1943-04-06",
+    "magnitude": 8.2,
+    "magnitude_type": "Mw",
+    "depth": 55.0,
+    "epicenter_lat": -30.75,
+    "epicenter_lon": -72.0,
+    "year": 1943
+  },
+  {
+    "name": "1918 Coquimbo Earthquake",
+    "date": "1918-12-04",
+    "magnitude": 8.2,
+    "magnitude_type": "Ms",
+    "depth": 60.0,
+    "epicenter_lat": -26.0,
+    "epicenter_lon": -71.0,
+    "year": 1918
+  },
+  {
+    "name": "1914 Valparaíso Earthquake",
+    "date": "1914-01-29",
+    "magnitude": 8.2,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -35.0,
+    "epicenter_lon": -73.0,
+    "year": 1914
+  },
+  {
+    "name": "1906 Valparaíso Earthquake",
+    "date": "1906-08-16",
+    "magnitude": 8.2,
+    "magnitude_type": "Mw",
+    "depth": 25.0,
+    "epicenter_lat": -33.0,
+    "epicenter_lon": -72.0,
+    "year": 1906
+  },
+  {
+    "name": "1995 Antofagasta Earthquake",
+    "date": "1995-07-30",
+    "magnitude": 8.0,
+    "magnitude_type": "Mw",
+    "depth": 47.0,
+    "epicenter_lat": -23.36,
+    "epicenter_lon": -70.31,
+    "year": 1995
+  },
+  {
+    "name": "1985 Valparaíso Earthquake",
+    "date": "1985-03-03",
+    "magnitude": 8.0,
+    "magnitude_type": "Mw",
+    "depth": 33.0,
+    "epicenter_lat": -33.24,
+    "epicenter_lon": -71.85,
+    "year": 1985
+  },
+  {
+    "name": "1837 Concepción Earthquake",
+    "date": "1837-11-07",
+    "magnitude": 8.0,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -39.8,
+    "epicenter_lon": -73.2,
+    "year": 1837
+  },
+  {
+    "name": "1657 Concepción Earthquake",
+    "date": "1657-03-15",
+    "magnitude": 8.0,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -36.83,
+    "epicenter_lon": -73.03,
+    "year": 1657
+  },
+  {
+    "name": "1946 Coquimbo Earthquake",
+    "date": "1946-08-02",
+    "magnitude": 7.9,
+    "magnitude_type": "Ms",
+    "depth": 50.0,
+    "epicenter_lat": -26.5,
+    "epicenter_lon": -70.5,
+    "year": 1946
+  },
+  {
+    "name": "1918 Coquimbo Earthquake",
+    "date": "1918-05-20",
+    "magnitude": 7.9,
+    "magnitude_type": "Ms",
+    "depth": null,
+    "epicenter_lat": -28.5,
+    "epicenter_lon": -71.5,
+    "year": 1918
+  },
+  {
+    "name": "1878 Punta Arenas Earthquake",
+    "date": "1878-01-23",
+    "magnitude": 7.9,
+    "magnitude_type": "Ms",
+    "depth": 40.0,
+    "epicenter_lat": -20000.0,
+    "epicenter_lon": -70300.0,
+    "year": 1878
+  }
+]
